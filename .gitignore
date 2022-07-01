@@ -1,0 +1,4 @@
+# Project exclude paths
+/Spring_01_quickstart/target/
+/spring_18_aop_quickstart/target/
+/springmvc_02_webapp/target/

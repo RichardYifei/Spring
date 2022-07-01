@@ -1,0 +1,25 @@
+
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+<!--    1.导入Spring坐标spring-context及其版本号-->
+<!--    2.配置bean
+            id属性时bean的唯一标识
+            class属性定义bean类型-->
+<!--    <bean id="bookDao" class="com.itheima.dao.impl.BookDaoImpl"></bean>-->
+<!--    <bean id="bookService" class="com.itheima.service.impl.BookServiceImpl">-->
+<!--    7.配置bookService与bookDao之间的关系
+            property标签表示配置当前的bean属性
+            name属性表示配置哪一个具体的属性
+            ref属性表示参照哪一个bean-->
+
+<!--        <property name="bookDao" ref="bookDao"/>-->
+    <context:component-scan base-package="com.itheima.dao.impl"/>
+<!--    </bean>
+</beans>
+        -->
